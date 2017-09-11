@@ -27,7 +27,9 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="Script.ps1" />
+    <Compile Include="AllSystems.ps1" />
+    <Compile Include="ServersOnly.ps1" />
+    <Compile Include="WorkStationsOnly.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
