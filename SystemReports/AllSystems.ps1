@@ -57,5 +57,5 @@ FOREACH($WorkStation in $WorkStationList)
 		$network = $null 
 }
 #>>Export our WorkStation Report with timestamp<<##
-$WorkStationlist|export-csv C:\belltech\$dateforfile-WorkStationReport.csv
+$WorkStationlist|export-csv C:\belltech\$dateforfile-WorkStationReport.csv -NoTypeInformation
 

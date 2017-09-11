@@ -33,5 +33,5 @@ FOREACH($server in $ServerList)
 		$network = $null 
 }
 #>>Export our Server Report with timestamp<<##
-$Serverlist|export-csv C:\belltech\$dateforfile-ServerReport.csv
+$Serverlist|export-csv C:\belltech\$dateforfile-ServerReport.csv -NoTypeInformation
 
