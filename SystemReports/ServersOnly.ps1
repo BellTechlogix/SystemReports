@@ -1,6 +1,7 @@
 <#
 	ServersOnly.ps1
 	Created 11Sept2017
+	Updated 07Dec2017
 	By TankCR
 #>
 
